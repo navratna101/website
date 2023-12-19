@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2e55912f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ayurvedic.css">
+    <html lang="en-US">
+</head>
+
+<body>
+    <div class="pleloading" id="preloderId">
+        <img src="loading gif.gif" alt="loading" />
+    </div>
+    <div class="logo-nav">
+        <div class="bg-color1">
+            <div class="lang-bg">
+                <h1 class="lang-title">Language</h1>
+                <script>
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        }, 'google_translate_element');
+                    }
+
+                    const languageDropdown = document.getElementById('languageDropdown');
+                    const translatedContent = document.getElementById('translatedContent');
+                    const originalContent = translatedContent.querySelector('p');
+
+                    languageDropdown.addEventListener('change', function () {
+                        const selectedLanguage = languageDropdown.value;
+                        translateElement(originalContent, selectedLanguage);
+                    });
+
+                    function translateElement(element, targetLanguage) {
+                        element.removeAttribute('translate');
+                        element.lang = targetLanguage;
+                    }
+                </script>
+                <!-- Google Translate Widget code -->
+                <div id="google_translate_element"></div>
+                <script type="text/javascript"
+                    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+        </div>
+        <div class="bg-color2 d-md-flex flex-row justify-content-center align-items-center d-none ">
+            <a href="ayurvedic.html" class="menu-items1">Home</a>
+            <a href="aboutUs.html" class="menu-items2">About Us</a>
+            <a href="orders.html" class="menu-items2">Order</a>
+            <a href="contactus.html" class="menu-items2">Contact Us</a>
+            <div class="d-block d-md-none">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="bg-color2 d-flex flex-row justify-content-end align-items-center d-md-none pr-4">
+            <div class="d-block d-md-none">
+                <i class="fa-solid fa-bars menuBtn" id="menuBtn"></i>
+            </div>
+        </div>
+        <div>
+            <div class="menu-drop d-md-none d-flex flex-column justify-content-center align-items-center active-menu"
+                id="smMenuDrop">
+                <a href="ayurvedic.html" class="sm-links">Home</a>
+                <a href="aboutUs.html" class="sm-links">About Us</a>
+                <a href="orders.html" class="sm-links">Order</a>
+                <a href="contactus.html" class="sm-links">Contact Us</a>
+            </div>
+            <img class="ayur-logo" src="logo.png">
+            <div class="bg-color3">
+                <h1 class="best-heading">India's Best Ayurvedic Medicines</h1>
+                <div class="d-flex flex-row justify-content-center align-items-center ">
+                    <img class="img-tree m-0 p-0" src="smalltreeayur.png">
+                    <p>100% HERBAL PRODUCTS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="ayurvedic.js"></script>
+    <script>     document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        alert('Right-click is disabled on this page.');
+    });
+    </script>
+
+        <h1 location="align-items-center">REFUND POLICY</h1>
+        <p>At X-TRA POWER, we believe and understand that all men may have a unique physical and health situation. This is also why you would react differently to our Mens Powerment. Our aim is to provide complete customer satisfaction with our services, also with properly tested and proven results.</p>
+    
+        <p>This means that if you are not satisfied with Mens Powerment or its results within 30 days, you can simply return unused boxes to us, and we will refund your money. At this point, it should be remembered that we can only refund you if the product is in its original packaging and must not be damaged. The amount we get back depends on the number of boxes returned. Otherwise, we must deduct shipping charges as well as 10% handling and exchange charges. Also, we could refund only once per user. If you order our Mens Powerment product again, we trust that you will be satisfied with the results of the product and will not need to replace it.</p>
+    
+        <p>If you would like a refund for X-TRA POWER, please contact us by phone. When you call us, we will give you a reference number, and you must mention the reference number in the box you return to us. If you are returning it to us, package the material in a safe and send it to us within 48 hours of the call.</p>
+    
+        <p>When returning the package, you should use a courier service that protects it and should provide a tracking number for the package. We will only refund you when we receive the boxes in unopened condition. In addition, as stated, we also deduct 10% of the additional amount from the return costs. For any clarification, you can contact us by number or write to us.</p>
+    
+        <p>Understand, X-TRA POWER is one of the best Mens Powerment drugs made with only natural ingredients. When it comes to value for money, we strive to offer you our products at a very competitive price without compromising on quality. But your metabolism, heredity, genetic situation, and many other factors also influence part of the result. Therefore, we recommend that you carefully read our disclaimers and conditions page before ordering Mens Powerment. And when you place an order for X-TRA POWER, you agree to all our terms. This means you have no complaints about our refund policy, terms and conditions, and privacy policy.</p>
+  
+    
+
+</body>
+
+</html>

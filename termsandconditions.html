@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2e55912f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ayurvedic.css">
+    <html lang="en-US">
+</head>
+
+<body>
+    <div class="pleloading" id="preloderId">
+        <img src="loading gif.gif" alt="loading" />
+    </div>
+    <div class="logo-nav">
+        <div class="bg-color1">
+            <div class="lang-bg">
+                <h1 class="lang-title">Language</h1>
+                <script>
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        }, 'google_translate_element');
+                    }
+
+                    const languageDropdown = document.getElementById('languageDropdown');
+                    const translatedContent = document.getElementById('translatedContent');
+                    const originalContent = translatedContent.querySelector('p');
+
+                    languageDropdown.addEventListener('change', function () {
+                        const selectedLanguage = languageDropdown.value;
+                        translateElement(originalContent, selectedLanguage);
+                    });
+
+                    function translateElement(element, targetLanguage) {
+                        element.removeAttribute('translate');
+                        element.lang = targetLanguage;
+                    }
+                </script>
+                <!-- Google Translate Widget code -->
+                <div id="google_translate_element"></div>
+                <script type="text/javascript"
+                    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+        </div>
+        <div class="bg-color2 d-md-flex flex-row justify-content-center align-items-center d-none ">
+            <a href="ayurvedic.html" class="menu-items1">Home</a>
+            <a href="aboutUs.html" class="menu-items2">About Us</a>
+            <a href="orders.html" class="menu-items2">Order</a>
+            <a href="contactus.html" class="menu-items2">Contact Us</a>
+            <div class="d-block d-md-none">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="bg-color2 d-flex flex-row justify-content-end align-items-center d-md-none pr-4">
+            <div class="d-block d-md-none">
+                <i class="fa-solid fa-bars menuBtn" id="menuBtn"></i>
+            </div>
+        </div>
+        <div>
+            <div class="menu-drop d-md-none d-flex flex-column justify-content-center align-items-center active-menu"
+                id="smMenuDrop">
+                <a href="ayurvedic.html" class="sm-links">Home</a>
+                <a href="aboutUs.html" class="sm-links">About Us</a>
+                <a href="orders.html" class="sm-links">Order</a>
+                <a href="contactus.html" class="sm-links">Contact Us</a>
+            </div>
+            <img class="ayur-logo" src="logo.png">
+            <div class="bg-color3">
+                <h1 class="best-heading">India's Best Ayurvedic Medicines</h1>
+                <div class="d-flex flex-row justify-content-center align-items-center ">
+                    <img class="img-tree m-0 p-0" src="smalltreeayur.png">
+                    <p>100% HERBAL PRODUCTS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="ayurvedic.js"></script>
+    <script>     document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        alert('Right-click is disabled on this page.');
+    });
+    </script>
+</body>
+
+    <h1 location="align-items-center">TERMS AND CONDITIONS</h1>
+
+    <p>Terms and Conditions for Men's Power Medicine Online Store</p>
+
+    <ol>
+        <li>
+            <h2>Acceptance of Terms</h2>
+            <p>1.1. By accessing and using this website and purchasing products from our online store, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our website or purchase our products.</p>
+        </li>
+        <li>
+            <h2>Products</h2>
+            <p>2.1. Our online store offers dietary supplements and men's power medicine (referred to as "products"). These products are intended for adult use only and are not suitable for individuals under 18 years of age.</p>
+            <p>2.2. We make every effort to provide accurate product descriptions and information, but we do not guarantee the accuracy, completeness, or reliability of the information presented. Product packaging may vary from the images shown on the website.</p>
+        </li>
+        <li>
+            <h2>Orders and Payment</h2>
+            <p>3.1. When you place an order through our website, you are making an offer to purchase the selected products. We reserve the right to accept or decline your order for any reason.</p>
+            <p>3.2. Payment for products must be made at the time of order placement. We accept various payment methods, as indicated on our website.</p>
+            <p>3.3. Prices for products are subject to change without notice, but any price changes will not affect orders already placed and confirmed.</p>
+        </li>
+        <li>
+            <h2>Shipping and Delivery</h2>
+            <p>4.1. We aim to process and ship orders promptly, but shipping times and delivery dates are estimates and may vary based on location and other factors. We are not liable for any delays in delivery.</p>
+            <p>4.2. We will deliver products to the address you provide during the ordering process. Please ensure the accuracy of your shipping address.</p>
+        </li>
+        <li>
+            <h2>Returns and Refunds</h2>
+            <p>5.1. We offer a return and refund policy as outlined in our separate Return and Refund Policy, which is incorporated by reference into these Terms and Conditions.</p>
+        </li>
+        <li>
+            <h2>Privacy Policy</h2>
+            <p>6.1. Our Privacy Policy governs the collection, use, and protection of your personal information. Please review our Privacy Policy to understand how we handle your data.</p>
+        </li>
+        <li>
+            <h2>Prohibited Uses</h2>
+            <p>7.1. You agree not to use our website for any unlawful or prohibited purpose, including but not limited to: distributing harmful software, engaging in fraud, spamming, or any activity that violates applicable laws.</p>
+        </li>
+        <li>
+            <h2>Disclaimer of Warranties</h2>
+            <p>8.1. Our products are provided "as is" without any warranties or guarantees, either expressed or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose.</p>
+        </li>
+        <li>
+            <h2>Limitation of Liability</h2>
+            <p>9.1. We shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use or inability to use our products or website.</p>
+        </li>
+        <li>
+            <h2>Changes to Terms and Conditions</h2>
+            <p>10.1. We reserve the right to update and modify these Terms and Conditions at any time. Any changes will be posted on our website, and your continued use of the website after such changes constitutes acceptance of the updated terms.</p>
+        </li>
+        <li>
+            <h2>Governing Law</h2>
+            <p>11.1. These Terms and Conditions shall be governed by and construed in accordance with the laws of [Your Jurisdiction].</p>
+        </li>
+        <li>
+            <h2>Contact Information</h2>
+            <p>12.1. For any questions, concerns, or inquiries regarding these Terms and Conditions, please contact us at [Your Contact Information].</p>
+        </li>
+    </ol>
+
+
+</html>

@@ -1,0 +1,578 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital@1&family=Martel+Sans:wght@600&family=Montserrat:wght@700;800&family=Noto+Sans:wght@500&family=Nunito:wght@600&family=Open+Sans:wght@500&family=Poppins:wght@400;700&family=Roboto+Condensed&family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Teko:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+h100 {
+  font-size: 36px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the text */
+  color: #0044fe; /* Set the text color to orange */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for attractiveness */
+  /* You can add more styles as needed */
+}
+
+.bg-color1 {
+  background-color: #ffe699;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-color2 {
+  background-color: #548235;
+  height: 45px;
+  position: relative;
+}
+
+.selection {
+  margin: 0;
+  padding: 0;
+  width: 130px;
+}
+
+.ayur-logo {
+  height: 80px;
+  position: absolute;
+  padding: 4px;
+  margin-left: 13px;
+  top: 0;
+}
+
+.lang-bg {
+  background-color: #8faadc;
+  margin: 10px;
+  height: 45px;
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.lang-title {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.lang-link {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.lang-link:hover {
+  text-decoration: underline;
+}
+
+.menu-items1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-right: 3px;
+}
+
+.menu-items1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-right: 15px;
+  margin-left: 80px;
+  display: block;
+}
+.menu-items1:active {
+  color: orange;
+}
+.menu-items1:hover {
+  color: black;
+  text-decoration: underline black;
+}
+.menu-items2 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-right: 15px;
+  display: block;
+}
+.menu-items2:hover {
+  color: black;
+  text-decoration: underline black;
+}
+.menuBtn {
+  cursor: pointer;
+}
+
+.bg-color3 {
+  background-color: #8497b0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.best-heading {
+  font-size: 20px;
+  padding: 4px;
+}
+
+.menu-drop {
+  position: absolute;
+  width: 100%;
+  background-color: #548235;
+}
+
+.active-menu {
+  display: none !important;
+  transition: display 1s 3s linear;
+}
+
+.sm-links {
+  color: #000000;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.sm-links:hover {
+  color: black;
+}
+
+.img-tree {
+  width: 30px;
+}
+
+.Main-bg {
+  background-image: url("bgmayur.jpg");
+  background-size: 100% 100%;
+  font-weight: bold;
+  position: relative;
+}
+
+.bottleimg {
+  width: 600px;
+  margin: 40px;
+}
+
+.mainHeading {
+  color: #ff0000;
+  font-size: 30px;
+}
+
+.mainPara {
+  color: #f8f80e;
+}
+
+.spanEle {
+  color: #e98e3c;
+}
+
+.about-head {
+  font-size: 40px;
+}
+
+.about-para {
+  font-size: 20px;
+}
+
+.arrowImg {
+  width: 300px;
+  height: 100px;
+}
+
+.gurante-img {
+  width: 300px;
+}
+
+.list-style {
+  list-style-type: square;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.darkbluecolor {
+  color: #006acc;
+}
+
+.bluecolor {
+  color: #00b0f0;
+}
+
+.about-head {
+  font-size: 30px;
+}
+
+.about-para {
+  font-size: 22px;
+}
+
+.about-para2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.order-bg-1 {
+  background-image: url("orderbg1.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.order-heading-cont {
+  text-align: center;
+  display: flex;
+  height: 50px;
+}
+
+.one-icon {
+  font-size: 65px;
+  font-weight: bold;
+  color: #ea9303;
+}
+
+.order-bg-heading {
+  background-color: #a6b727;
+  border: 1px solid black;
+  color: #20455a;
+}
+
+.order-mainheading {
+  font-size: 23px;
+}
+.deliveryImg {
+  width: 340px;
+}
+.bottleimg1 {
+  height: 700px;
+  width: 400px;
+}
+.order-st1 {
+  width: 250px;
+  top: 39%;
+  left: 40%;
+  position: absolute;
+}
+.order-st2 {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  width: 250px;
+}
+.order-st4 {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+  height: 160px;
+}
+.order-st3 {
+  position: absolute;
+  top: 58%;
+  left: 60%;
+  width: 280px;
+}
+.order-bg-2 {
+  background-image: url("order-bg-2.jpg");
+  background-size: 100% 100%;
+}
+.order2-heading {
+  text-align: center;
+  font-size: 50px;
+  color: #ffff00;
+  font-family: "Algerian";
+}
+.choose-cont {
+  text-align: center;
+}
+.choose-img {
+  height: 700px;
+  width: 600px;
+}
+.choose-heading {
+  font-family: "Arial Black";
+  font-size: 20px;
+}
+.choose-para {
+  font-family: "Arial Black";
+  font-size: 13px;
+}
+.order-btn {
+  font-family: "Century Gothic (Body)";
+  padding: 5px;
+  width: 130px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.order-btn a{
+  color: #a6b727;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.order-btn:hover {
+  opacity: 0.7;
+}
+.termsConditions div p {
+  font-size: 20px;
+}
+.order3-heading {
+  font-family: "Algerian";
+  text-align: center;
+}
+.order3-side-details h3 {
+  color: #405064;
+  font-family: inherit;
+  font-size: 25px;
+}
+.order3-side-details ul {
+  color: #316886;
+}
+.shape-bg {
+  position: relative;
+  background-image: url("shape1.png");
+  width: 250px;
+  height: 150px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.shape-bg h5 {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  width: 120px;
+  font-size: 20px;
+}
+.shape-bg1 {
+  position: relative;
+  background-image: url("shape2.png");
+  width: 250px;
+  height: 120px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.shape-bg1 h5 {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+.arrowshape-2 {
+  width: 90px;
+}
+.shape-bg2 {
+  position: relative;
+  background-image: url("shape2.png");
+  width: 200px;
+  height: 100px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.shape-bg2 h5 {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+.order-bg-4 h1 {
+  font-family: "Arial Black";
+}
+.order-bg-4 ul {
+  list-style-type: square;
+}
+.order-bg-4 ul li {
+  font-size: 18px;
+  color: red;
+}
+.order-bg-4 ul p {
+  color: blue;
+  font-size: 20px;
+}
+.order-bg-5 {
+  background-image: url("orderbg2.jpg");
+  background-size: 100% 100%;
+}
+.order-logo {
+  width: 100px;
+}
+.order-bg-5 div h1 {
+  font-family: "Arial Black";
+  font-style: italic;
+  color: red;
+  font-size: 30px;
+}
+.order-card {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #d3e171;
+}
+.order-card h3 {
+  color: red;
+}
+.order-bg-6 {
+  background-image: url("bg-pg3.jpg");
+  background-size: 100% 100%;
+}
+.order-card-postion {
+  background-color: #a9d18e;
+  height: 250px;
+  position: relative;
+}
+.order-card-postion p {
+  width: 280px;
+}
+.picture1 {
+  top: -15%;
+  left: 35%;
+  width: 100px;
+  position: absolute;
+}
+.order-bg-7 img {
+  height: 280px;
+  width: 40%;
+  border-radius: 10px;
+  margin: 10px;
+}
+.order-bg-7 div h1 {
+  color: #405064;
+  /* color: #888c98; */
+  font-family: "Lato";
+}
+.order-bg-7 div p {
+  font-size: 18px;
+}
+a :link {
+  color: black !important;
+  text-decoration: none;
+}
+.order-bg-8 {
+  background-image: url("bg-pg3.jpg");
+  background-size: 100% 100%;
+}
+.order-bg-8 h1 {
+  font-family: "Arial Black";
+  font-weight: bold;
+  color: #fffc04;
+}
+.order-8-cards div {
+  background-color: #a6b727;
+  height: 700px;
+  width: 600px;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  font-family: "Lato";
+}
+.contactUs {
+  background-image: url("pg1\ pic1.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 0.5;
+}
+.card1 {
+  border-radius: 10px;
+  z-index: 1000;
+  background-color: white;
+  width: 50%;
+}
+.card1 label {
+  font-size: 20px;
+}
+.card1 input {
+  width: 75%;
+  padding: 6px;
+}
+.pleloading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 2000;
+}
+
+@media (max-width: 578px) {
+  .mainHeading {
+    color: #ff0000;
+    font-size: 20px;
+  }
+
+  .order-bg-heading {
+    background-color: #a6b727;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 80px;
+  }
+  .order-mainheading {
+    font-size: 15px;
+  }
+  .order-heading-cont {
+    height: auto;
+  }
+  .deliveryImg {
+    width: 240px;
+  }
+  .bottleimg1 {
+    width: 400px;
+    height: 770px;
+  }
+  .order-st1 {
+    width: 100px;
+  }
+  .order-st2 {
+    top: 22%;
+    width: 100px;
+  }
+  .order-st3 {
+    width: 120px;
+  }
+  .order-st4 {
+    left: 63%;
+    top: 40%;
+    width: 50px;
+    height: 80px;
+  }
+  .order3-heading {
+    font-size: 35px;
+  }
+  .order-bg-4 h1 {
+    font-family: "Arial Black";
+    font-size: 30px;
+  }
+  .order-logo {
+    width: 80px;
+  }
+  .picture1 {
+    left: 40%;
+  }
+  .order-bg-7 div h1 {
+    font-size: 30px;
+  }
+  .card1 {
+    width: 78%;
+  }
+}
