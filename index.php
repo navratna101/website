@@ -99,7 +99,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Navratana Ayurveda</h2>
-              <p class="animate__animated animate__fadeInUp">Navratana Ayurveda is made with only the highest quality components Now that this has been established, XTRA POWER is 100%</p>
+              <p class="animate__animated animate__fadeInUp">Navratana Ayurveda is made with only the highest quality components Now that this has been established, X.treme POWER is 100%</p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR2BYPZCKRZiS9mtIRZybZ1YjvTO596rXy36xm4RhMTHWyrw/viewform" class="btn-get-started animate__animated animate__fadeInUp scrollto">Order Now</a>
             </div>
           </div>
@@ -451,7 +451,7 @@
                     <p class="pl-5 pr-5"><span style="font-size: 24px;"> NAVRATNA AYURVEDEA</span> is made <span
                             class="spanEle">with</span> only the
                         <span class="spanEle">highest quality components</span>
-                        Now <span class="spanEle">that this has been established, XTRA POWER is
+                        Now <span class="spanEle">that this has been established, X.treme POWER is
                             100% </span>
                     </p>
                     <p class="darkbluecolor" style="font-size: 24px;">SAFE and EFFECTIVE</p>
